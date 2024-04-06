@@ -1,0 +1,34 @@
+#cardPreview {
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#cardMessage {
+  font-size: 24px;
+}
+
+#userName {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
