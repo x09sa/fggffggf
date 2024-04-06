@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Congratulations Card Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Congratulations Card Generator</h1>
+  
+  <div id="cardPreview">
+    <h2 id="cardMessage">Congratulations!</h2>
+    <p id="userName"></p>
+  </div>
+  
+  <form id="cardForm">
+    <label for="nameInput">Your Name:</label>
+    <input type="text" id="nameInput" required>
+    
+    <label for="messageInput">Enter your message:</label>
+    <textarea id="messageInput" rows="4" required></textarea>
+    
+    <button type="submit">Generate Card</button>
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>
